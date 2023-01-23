@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>NLW-HABITS</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="header">
+          <div>
+            <img class="square" src="./img/square1.svg" alt="" />
+            <img class="square" src="./img/square2.svg" alt="" />
+            <img class="square" src="./img/square3.svg" alt="" />
+            <img class="square" src="./img/square4.svg" alt="" />
+            <img class="square" src="./img/square5.svg" alt="" />
+            <img class="square" src="./img/square6.svg" alt="" />
+            <p class="habits">habits</p>
+          </div>
+          <button class="register">
+            <img src="./img/add.svg" alt="" />
+            <p>Registrar meu dia</p>
+          </button>
+        </div>
+        <form class="calendar">
+          <div class="habits">
+            <div class="habit" data-name="run">🏃🏽‍♂️</div>
+            <div class="habit" data-name="water">💧</div>
+            <div class="habit" data-name="food">🍎</div>
+            <div class="habit" data-name="salad">🥗</div>
+            <div class="habit" data-name="pet">🦮</div>
+            <div class="habit" data-name="sleep">💤</div>
+          </div>
+          <div class="days"></div>
+        </form>
+      </div>
+      <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+      <script src="./js/index.js"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+body {
+  background-color: #09090a;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+}
+
+.container {
+  height: 70%;
+  margin-top: 5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header img {
+  width: 10%;
+}
+
+.header .habits {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.register p {
+  font-size: 1rem;
+}
+
+.header button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(63, 1, 114);
+  border-radius: 8px;
+  padding: 0 15px;
+  height: fit-content;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+}
+
+.register img {
+  margin-right: 10px;
+  width: 10%;
+}
+
+.calendar {
+  display: flex;
+  margin-top: 50px;
+}
+
+.habits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.habit {
+  width: 50px;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.days {
+  display: flex;
+  gap: 15px;
+}
+
+.days div {
+  text-align: center;
+  color: white;
+}
+
+.days input {
+  appearance: none;
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin-top: 17px;
+  background-color: #252525;
+  border-radius: 10px;
+  transition: 300ms;
+}
+
+.days input:checked {
+  background-color: rgb(146, 22, 146);
+  transition: 300ms;
+}
+
+@media (max-width: 400px) {
+  .habit {
+    width: 50px;
+    font-size: 27px;
+    margin-top: 28px;
+    margin-right: 8px;
+  }
+
+  .days input {
+    appearance: none;
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-top: 17px;
+    background-color: #252525;
+    border-radius: 8px;
+    transition: 300ms;
+  }
+}
